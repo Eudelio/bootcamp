@@ -1,3 +1,15 @@
+class Animal(Dino):
+    vivo = False
+    def __init__(self):
+        self.vivo = True
+    
+    def esta_vivo(self):
+        if self.vivo == True:
+            print("Estoy vivo")
+        else:
+            self.vivo == False
+            print(eh_morido)
+
 class Dino:
     ojos = 2
     patas = 4
@@ -27,6 +39,20 @@ pepa.cortar_patas()
 pepa.saludar()
 pepa.decir_genero()
 
+class TRex(Dino):
+    def __init__(self, nombre, patas, color=None)
+    self.nombre = nombre
+    self.patas = patas
+    self.color = color
+    print("Hola soy TRex y me llamo", self.nombre)
+
+pepeT = TRex("Roberto el TREX")
+print(robert.ojos)
+
+robert.saludar()
+robert.decir_genero()
+
+robert.esta_vivo()
 
 
 
